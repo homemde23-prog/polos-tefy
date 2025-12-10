@@ -1,0 +1,17 @@
+{
+  "precios": [
+    { "talla": "XL",  "precio": 24 },
+    { "talla": "XXL", "precio": 24 },
+    { "talla": "L",   "precio": 20 },
+    { "talla": "M",   "precio": 20 },
+    { "talla": "S",   "precio": 18 },
+    { "talla": "16",  "precio": 18 },
+    { "talla": "14",  "precio": 16 },
+    { "talla": "12",  "precio": 16 },
+    { "talla": "10",  "precio": 14 },
+    { "talla": "8",   "precio": 14 },
+    { "talla": "6",   "precio": 12 },
+    { "talla": "4",   "precio": 12 },
+    { "talla": "2",   "precio": 10 }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "clasico": {
+    "nombre": "Modelo Clásico Esencial",
+    "colores": {
+      "default": [
+        "images/products/clasico/clasico-01.png"
+      ]
+    }
+  },
+  "premium-blanca": {
+    "nombre": "Camiseta Premium Blanca",
+    "colores": {
+      "default": [
+        "images/products/premium-blanca/premium-blanca-01.png"
+      ]
+    }
+  },
+  "estampado-familiar": {
+    "nombre": "Diseño Estampado Familiar",
+    "colores": {
+      "blanco": [
+        "images/products/estampado-familiar/estampado-blanco-01.png",
+        "images/products/estampado-familiar/estampado-blanco-02.png"
+      ],
+      "negro": [
+        "images/products/estampado-familiar/estampado-negro-01.png"
+      ],
+      "azul": [
+        "images/products/estampado-familiar/estampado-azul-01.png"
+      ]
+    }
+  },
+  "navidad-familia": {
+    "nombre": "Polo Navidad Familiar",
+    "colores": {
+      "blanco": [
+        "images/products/navidad-familia/navidad-familia-blanco-01.png"
+      ],
+      "rojo": [
+        "images/products/navidad-familia/navidad-familia-rojo-01.png"
+      ],
+      "verde": [
+        "images/products/navidad-familia/navidad-familia-verde-01.png"
+      ]
+    }
+  },
+  "navidad-renos": {
+    "nombre": "Polo Renos Navideños",
+    "colores": {
+      "blanco": [
+        "images/products/navidad-renos/navidad-renos-blanco-01.png"
+      ],
+      "rojo": [
+        "images/products/navidad-renos/navidad-renos-rojo-01.png"
+      ],
+      "verde": [
+        "images/products/navidad-renos/navidad-renos-verde-01.png"
+      ]
+    }
+  },
+  "santa-edition": {
+    "nombre": "Polo Santa Edition",
+    "colores": {
+      "blanco": [
+        "images/products/santa-edition/blanco/polo-navidad-santa-blanco.png",
+        "images/products/santa-edition/blanco/blanco_hombre.png",
+        "images/products/santa-edition/blanco/blanco_mujer.png",
+        "images/products/santa-edition/blanco/santa-blanco-hombre.png"
+      ],
+      "negro": [
+        "images/products/santa-edition/negro/santa-negro-01.png"
+      ],
+      "rojo": [
+        "images/products/santa-edition/rojo/santa-rojo-01.png"
+      ],
+      "verde": [
+        "images/products/santa-edition/verde/santa-verde-01.png"
+      ]
+    }
+  }
+}

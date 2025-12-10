@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>👕 Polos Tefy | Calidad y Confort para Toda la Familia</title>
+    <meta name="description" content="Polos Tefy: camisetas de algodón jersey 20/1 reactivo. Suavidad, durabilidad y frescura para toda la familia. Haz tu pedido por WhatsApp.">
+
+    <!-- Fuentes y Iconos -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- CSS GLOBAL -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- ========================= -->
+    <!-- HEADER -->
+    <!-- ========================= -->
+    <header class="header" id="inicio">
+        <nav class="nav">
+            <a href="#inicio" class="logo">Polos Tefy</a>
+
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="nav-list" id="nav-list">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#calidad">Nuestra Calidad</a></li>
+                <li><a href="#productos">Modelos</a></li>
+                <li><a href="#navidad">Navidad 🎄</a></li>
+                <li><a href="#precios">Precios</a></li>
+                <li><a href="#familia">Historia</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ========================= -->
+    <!-- HERO -->
+    <!-- ========================= -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Polos de Calidad para Toda la Familia</h1>
+            <p>Confeccionados con <strong>algodón jersey 20/1 reactivo</strong>, suaves, duraderos y perfectos para el clima peruano.</p>
+            <a href="#productos" class="btn btn-primary">Ver Modelos</a>
+        </div>
+    </section>
+
+    <!-- ========================= -->
+    <!-- SECCIÓN CALIDAD -->
+    <!-- ========================= -->
+    <section class="quality" id="calidad">
+        <div class="container">
+            <h2>Calidad que tu Familia Merece</h2>
+            <span class="quality-material">Algodón Jersey 20/1 Reactivo</span>
+
+            <p class="text-center">
+                Material premium para brindarte suavidad, frescura y colores que realmente duran.
+            </p>
+
+            <div class="benefits-grid">
+
+                <div class="benefit-card">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Suavidad Superior</h3>
+                    <p>Ideal para pieles sensibles y uso prolongado.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <i class="fas fa-gem"></i>
+                    <h3>Colores Permanentes</h3>
+                    <p>Tonos vibrantes incluso después de muchos lavados.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Alta Resistencia</h3>
+                    <p>Costuras reforzadas que aseguran durabilidad.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <i class="fas fa-temperature-low"></i>
+                    <h3>Frescos Todo el Día</h3>
+                    <p>Transpirables y ligeros, perfectos para el clima del Perú.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- PRODUCTOS GENERALES -->
+    <!-- ========================= -->
+    <section class="products" id="productos">
+        <div class="container">
+            <h2>Nuestros Polos Exclusivos</h2>
+
+            <div class="products-grid">
+
+                <!-- PRODUCTO EJEMPLO 1 -->
+                <div class="product-card" data-modelo="Modelo Clásico Esencial" data-product-id="clasico">
+                    <div class="product-gallery" id="gallery-clasico"></div>
+
+                    <div class="product-info">
+                        <h3>Modelo Clásico Esencial</h3>
+
+                        <label>Talla:</label>
+                        <select class="select-talla" data-modelo-id="clasico">
+                            <option disabled selected>-- Seleccionar Talla --</option>
+                            <option>XXL</option><option>XL</option><option>L</option>
+                            <option>M</option><option>S</option><option>16</option>
+                            <option>14</option><option>12</option><option>10</option>
+                            <option>8</option><option>6</option><option>4</option><option>2</option>
+                        </select>
+
+                        <p class="precio-seleccionado">Precio: <span id="precio-clasico">--</span> S/</p>
+
+                        <a id="btn-whatsapp-clasico" class="btn btn-whatsapp" disabled>
+                            <i class="fab fa-whatsapp"></i> Selecciona talla
+                        </a>
+                    </div>
+                </div>
+
+                <!-- PRODUCTO EJEMPLO 2 -->
+                <div class="product-card" data-modelo="Diseño Estampado Familiar" data-product-id="estampado-familiar">
+                    <div class="product-gallery" id="gallery-estampado-familiar"></div>
+
+                    <div class="product-info">
+                        <h3>Diseño Estampado Familiar</h3>
+
+                        <label>Color:</label>
+                        <select class="select-color" data-product-id="estampado-familiar">
+                            <option disabled selected>-- Seleccionar Color --</option>
+                            <option value="blanco">Blanco</option>
+                            <option value="negro">Negro</option>
+                            <option value="azul">Azul</option>
+                        </select>
+
+                        <label>Talla:</label>
+                        <select class="select-talla" data-modelo-id="estampado-familiar">
+                            <option disabled selected>-- Seleccionar Talla --</option>
+                            <option>XXL</option><option>XL</option><option>L</option>
+                            <option>M</option><option>S</option><option>16</option>
+                            <option>14</option><option>12</option><option>10</option>
+                            <option>8</option><option>6</option><option>4</option><option>2</option>
+                        </select>
+
+                        <p class="precio-seleccionado">Precio: <span id="precio-estampado-familiar">--</span> S/</p>
+
+                        <a id="btn-whatsapp-estampado-familiar" class="btn btn-whatsapp" disabled>
+                            <i class="fab fa-whatsapp"></i> Selecciona talla y color
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================= -->
+    <!-- SECCIÓN NAVIDAD -->
+    <!-- ========================= -->
+    <section class="products christmas" id="navidad">
+        <div class="container">
+            <h2>🎄 Colección Especial de Navidad 🎄</h2>
+
+            <p class="text-center">
+                Polos para campañas, fotos familiares y regalos navideños.
+            </p>
+
+            <div class="products-grid">
+
+                <!-- POLO NAVIDAD FAMILIAR -->
+                <div class="product-card" data-modelo="Polo Navidad Familiar" data-product-id="navidad-familia">
+                    <div class="product-gallery" id="gallery-navidad-familia"></div>
+
+                    <div class="product-info">
+                        <h3>Polo Navidad Familiar</h3>
+
+                        <label>Color:</label>
+                        <select class="select-color" data-product-id="navidad-familia">
+                            <option disabled selected>-- Seleccionar Color --</option>
+                            <option value="blanco">Blanco</option>
+                            <option value="rojo">Rojo</option>
+                            <option value="verde">Verde</option>
+                        </select>
+
+                        <label>Talla:</label>
+                        <select class="select-talla" data-modelo-id="navidad-familia">
+                            <option disabled selected>-- Seleccionar Talla --</option>
+                            <option>XXL</option><option>XL</option><option>L</option>
+                            <option>M</option><option>S</option><option>16</option>
+                            <option>14</option><option>12</option><option>10</option>
+                            <option>8</option><option>6</option><option>4</option><option>2</option>
+                        </select>
+
+                        <p class="precio-seleccionado">Precio: <span id="precio-navidad-familia">--</span> S/</p>
+
+                        <a id="btn-whatsapp-navidad-familia" class="btn btn-whatsapp" disabled>
+                            <i class="fab fa-whatsapp"></i> Selecciona talla y color
+                        </a>
+                    </div>
+                </div>
+
+                <!-- POLO SANTA EDITION -->
+                <div class="product-card" data-modelo="Polo Santa Edition" data-product-id="santa-edition">
+                    <div class="product-gallery" id="gallery-santa-edition"></div>
+
+                    <div class="product-info">
+                        <h3>Polo Santa Edition</h3>
+
+                        <label>Color:</label>
+                        <select class="select-color" data-product-id="santa-edition">
+                            <option disabled selected>-- Seleccionar Color --</option>
+                            <option value="blanco">Blanco</option>
+                            <option value="negro">Negro</option>
+                            <option value="rojo">Rojo</option>
+                            <option value="verde">Verde</option>
+                        </select>
+
+                        <label>Talla:</label>
+                        <select class="select-talla" data-modelo-id="santa-edition">
+                            <option disabled selected>-- Seleccionar Talla --</option>
+                            <option>XXL</option><option>XL</option><option>L</option>
+                            <option>M</option><option>S</option><option>16</option>
+                            <option>14</option><option>12</option><option>10</option>
+                            <option>8</option><option>6</option><option>4</option><option>2</option>
+                        </select>
+
+                        <p class="precio-seleccionado">Precio: <span id="precio-santa-edition">--</span> S/</p>
+
+                        <a id="btn-whatsapp-santa-edition" class="btn btn-whatsapp" disabled>
+                            <i class="fab fa-whatsapp"></i> Selecciona talla y color
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================= -->
+    <!-- TABLA DE PRECIOS -->
+    <!-- ========================= -->
+    <section class="prices" id="precios">
+        <div class="container">
+            <h2>Lista de Precios</h2>
+            <p>Los precios se actualizan automáticamente desde <strong>prices.json</strong>.</p>
+
+            <table class="price-table">
+                <thead>
+                    <tr>
+                        <th>Talla</th>
+                        <th>Precio (S/)</th>
+                    </tr>
+                </thead>
+                <tbody id="price-table-body"></tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- ========================= -->
+    <!-- HISTORIA -->
+    <!-- ========================= -->
+    <section class="story" id="familia">
+        <div class="container">
+            <h2>Nuestra Historia</h2>
+
+            <div class="story-content">
+                <div class="story-img-container">
+                    <img class="story-img" src="images/web/familia-negocio.png" alt="Familia Polos Tefy">
+                </div>
+
+                <div class="story-text">
+                    <p><strong>Polos Tefy</strong> nació con el propósito de ofrecer polos de calidad superior para las familias del Perú.</p>
+                    <p>Trabajamos con algodón jersey 20/1 reactivo, seleccionado cuidadosamente por su suavidad y durabilidad.</p>
+                    <p>Cada prenda es elaborada con dedicación y compromiso, reflejando nuestra pasión por brindar lo mejor.</p>
+                    <p>Gracias por confiar en <strong>Polos Tefy</strong>. ¡Seguimos creciendo junto a ustedes! 🇵🇪</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================= -->
+    <!-- FOOTER -->
+    <!-- ========================= -->
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer-contact">
+                <a href="https://wa.me/51987654321" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp: +51 987 654 321
+                </a>
+            </div>
+
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook Polos Tefy"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram Polos Tefy"><i class="fab fa-instagram"></i></a>
+            </div>
+
+            <p>&copy; Polos Tefy 2024. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- JS GLOBAL -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
